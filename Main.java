@@ -546,11 +546,11 @@ public class Main {
         Java bootcamp
         Output: Number of a's: 3
          */
-//        System.out.println("Enter String: ");
-//
-//        String text = input.nextLine();
-//
-//        countA(text);
+        System.out.println("Enter String: ");
+
+        String text = input.nextLine();
+
+        countA(text);
     }
 
 
@@ -564,7 +564,7 @@ public class Main {
 
         }
 
-        public static void countA (String text) throws Exception {
+        public static void countA (String text) {
 
 
             try {
